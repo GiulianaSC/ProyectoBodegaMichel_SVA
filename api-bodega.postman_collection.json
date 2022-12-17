@@ -1,0 +1,569 @@
+{
+	"info": {
+		"_postman_id": "69d33e3b-85af-4bd1-8f6c-eaca8c820ed1",
+		"name": "api-bodega",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "cliente",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"nDocumento\": \"73117248\",\r\n        \"tipoDocumento\": \"DNI\",\r\n        \"nombreCliente\": \"Ana\",\r\n        \"apellidoCliente\": \"Sullca Perez\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44317/api-bodega/cliente",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44317",
+							"path": [
+								"api-bodega",
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "distrito",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"nDocumento\": \"73117248\",\r\n        \"tipoDocumento\": \"DNI\",\r\n        \"nombreCliente\": \"Ana\",\r\n        \"apellidoCliente\": \"Sullca Perez\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44317/api-bodega/cliente",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44317",
+							"path": [
+								"api-bodega",
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "categoria",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"nDocumento\": \"73117248\",\r\n        \"tipoDocumento\": \"DNI\",\r\n        \"nombreCliente\": \"Ana\",\r\n        \"apellidoCliente\": \"Sullca Perez\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44317/api-bodega/cliente",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44317",
+							"path": [
+								"api-bodega",
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "producto",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"nDocumento\": \"73117249\",\r\n        \"tipoDocumento\": \"DNI\",\r\n        \"nombreCliente\": \"Giuliana\",\r\n        \"apellidoCliente\": \"Sullca Carranza\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44323/api-clientes/cliente",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44323",
+							"path": [
+								"api-clientes",
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "proveedor",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"nDocumento\": \"73117249\",\r\n        \"tipoDocumento\": \"DNI\",\r\n        \"nombreCliente\": \"Giuliana\",\r\n        \"apellidoCliente\": \"Sullca Carranza\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44323/api-clientes/cliente",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44323",
+							"path": [
+								"api-clientes",
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "usuario",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"nDocumento\": \"73117249\",\r\n        \"tipoDocumento\": \"DNI\",\r\n        \"nombreCliente\": \"Giuliana\",\r\n        \"apellidoCliente\": \"Sullca Carranza\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44323/api-clientes/cliente",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44323",
+							"path": [
+								"api-clientes",
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "PUT",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "comprobante",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"nDocumento\": \"73117249\",\r\n        \"tipoDocumento\": \"DNI\",\r\n        \"nombreCliente\": \"Giuliana\",\r\n        \"apellidoCliente\": \"Sullca Carranza\"\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44323/api-clientes/cliente",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44323",
+							"path": [
+								"api-clientes",
+								"cliente"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findAllCustom",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "DELETE",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "detallecomprobante",
+			"item": [
+				{
+					"name": "findAll",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "    {\r\n        \"CantProducto\": 2,\r\n        \"PrecioVenta\": 5.20,\r\n        \"ImporteProducto\": 10.40,\r\n        \"idProducto\": 1,\r\n        \"idComprobante\":1\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:44317/api-bodega/detallecomprobante",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "44317",
+							"path": [
+								"api-bodega",
+								"detallecomprobante"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "findById",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
